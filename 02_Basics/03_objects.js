@@ -32,7 +32,7 @@ JsUser.greeting = function(){
     
 }
 
-JsUser.greeting2  = function(){
+sUser.greeting2  = function(){
     console.log(`Hello JS user, ${this.name}`);
 }
 
