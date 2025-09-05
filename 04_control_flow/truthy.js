@@ -27,10 +27,10 @@ if(Object.keys(emptyObj).length === 0){
 
     let val1;
     //val1 = 5 ?? 10                   (output:5)
-     //val1 = null ?? 10               (output:10)
+    //val1 = null ?? 10               (output:10)
     // val1 = undefined ?? 15          (output:15)
 
-val1 = null ?? 10 ?? 20
+    val1 = null ?? 10 ?? 20
 
     console.log(val1);
 
